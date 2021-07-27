@@ -1,0 +1,29 @@
+//
+//  3.3
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/07/27.
+//
+
+#include <stdio.h>
+int main (void)
+{
+    float a;
+    scanf("%f ", &a);
+    printf("%f", a);
+}
+/*
+ 
+ a) "%d" vs " %d"
+    same because scanf ignores white space characters
+ 
+ b) "%d-%d-%d" vs "%d -%d -%d"
+    same because scanf ignores white space characters
+ 
+ c) "%f" vs "%f "
+    Different because the white space character at the end of the second format string would mean that a white space character would need to be inputted after the floating point number in order for the program to continue
+ 
+ d) "%f,%f" vs "%f, %f"
+    same because scanf ignores white space characters
+ 
+ */

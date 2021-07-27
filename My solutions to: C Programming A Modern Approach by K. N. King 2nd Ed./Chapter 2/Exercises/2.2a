@@ -1,0 +1,26 @@
+//
+//  2.2a
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/07/12.
+//
+
+#include <stdio.h>
+int main(void)
+{
+    printf("Parkinson's Law:\nWork expands so as to ");
+    printf("fill the time\n");
+    printf("available for its completion/ \n");
+    return 0;
+}
+
+/*
+ Directives:
+    #include <stdio.h>
+ 
+ Statements:
+    printf("Parkinson's Law:\nWork expands so as to ");
+    printf("fill the time\n");
+    printf("available for its completion/ \n");
+    return 0;
+ */

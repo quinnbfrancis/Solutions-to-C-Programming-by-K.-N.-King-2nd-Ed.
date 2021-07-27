@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA062D926B0202E00CF0AFF /* 3.1 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062D826B0202E00CF0AFF /* 3.1 */; };
+		CEA062DE26B021E900CF0AFF /* 3.2 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062DD26B021E900CF0AFF /* 3.2 */; };
+		CEA062E126B023EB00CF0AFF /* 3.3 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062E026B023EB00CF0AFF /* 3.3 */; };
+		CEA062E526B0263600CF0AFF /* 3.4 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062E426B0263600CF0AFF /* 3.4 */; };
+		CEA062E926B027A400CF0AFF /* 3.5 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062E826B027A400CF0AFF /* 3.5 */; };
+		CEA062ED26B029E800CF0AFF /* 3.6 in Sources */ = {isa = PBXBuildFile; fileRef = CEA062EC26B029E800CF0AFF /* 3.6 */; };
+		CEB234A8269DA96C0092660E /* 2.8 in Sources */ = {isa = PBXBuildFile; fileRef = CEB234A7269DA96C0092660E /* 2.8 */; };
+		CEB234AB269DAB130092660E /* 2.9 in Sources */ = {isa = PBXBuildFile; fileRef = CEB234AA269DAB130092660E /* 2.9 */; };
+		CEB234AE269DABC30092660E /* 2.10 in Sources */ = {isa = PBXBuildFile; fileRef = CEB234AD269DABC30092660E /* 2.10 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE95EACF26972A9500A08AB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE31F580269DA81400801528 /* 2.7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.7; sourceTree = "<group>"; };
+		CE63834A269C787300F29525 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed."; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE63834B269C790500F29525 /* 2.2a */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.2a; sourceTree = "<group>"; };
+		CE63834F269C7A5900F29525 /* 2.2b */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.2b; sourceTree = "<group>"; };
+		CE638354269C7ACA00F29525 /* 2.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.3; sourceTree = "<group>"; };
+		CE638357269C882000F29525 /* 2.4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.4; sourceTree = "<group>"; };
+		CE95EAE326972C0800A08AB1 /* 2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 2.1; sourceTree = "<group>"; };
+		CEA062D826B0202E00CF0AFF /* 3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 3.1; sourceTree = "<group>"; };
+		CEA062DD26B021E900CF0AFF /* 3.2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.2; sourceTree = "<group>"; };
+		CEA062E026B023EB00CF0AFF /* 3.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.3; sourceTree = "<group>"; };
+		CEA062E426B0263600CF0AFF /* 3.4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.4; sourceTree = "<group>"; };
+		CEA062E826B027A400CF0AFF /* 3.5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.5; sourceTree = "<group>"; };
+		CEA062EC26B029E800CF0AFF /* 3.6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.6; sourceTree = "<group>"; };
+		CEA062F026B02A9800CF0AFF /* 3.1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.1.c; sourceTree = "<group>"; };
+		CEA062F426B02C3900CF0AFF /* 3.2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.2.c; sourceTree = "<group>"; };
+		CEA062FE26B0693600CF0AFF /* 3.3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.3.c; sourceTree = "<group>"; };
+		CEA0630226B06ACE00CF0AFF /* 3.4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.4.c; sourceTree = "<group>"; };
+		CEA0630626B0703600CF0AFF /* 3.5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.5.c; sourceTree = "<group>"; };
+		CEA0630A26B0748A00CF0AFF /* 3.6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.6.c; sourceTree = "<group>"; };
+		CEA4B63326A9972800630001 /* 2.4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.4.c; sourceTree = "<group>"; };
+		CEA4B63726A9997A00630001 /* 2.5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.5.c; sourceTree = "<group>"; };
+		CEA4B63B26A99B9000630001 /* 2.6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.6.c; sourceTree = "<group>"; };
+		CEA4B63E26A99C9100630001 /* 2.7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.7.c; sourceTree = "<group>"; };
+		CEA4B64226A99F5B00630001 /* 2.8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.8.c; sourceTree = "<group>"; };
+		CEB234A7269DA96C0092660E /* 2.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.8; sourceTree = "<group>"; };
+		CEB234AA269DAB130092660E /* 2.9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.9; sourceTree = "<group>"; };
+		CEB234AD269DABC30092660E /* 2.10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.10; sourceTree = "<group>"; };
+		CEB234B2269DAC530092660E /* 2.1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.1.c; sourceTree = "<group>"; };
+		CEB234B6269DAD670092660E /* 2.2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.2.c; sourceTree = "<group>"; };
+		CEB234BA269DB29D0092660E /* 2.3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.3.c; sourceTree = "<group>"; };
+		CEFC4ED4269DA4E50045C921 /* 2.5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.5; sourceTree = "<group>"; };
+		CEFC4ED9269DA5B00045C921 /* 2.6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.6; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE95EACE26972A9500A08AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE95EAC826972A9500A08AB1 = {
+			isa = PBXGroup;
+			children = (
+				CE95EAD326972A9500A08AB1 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */,
+				CE63834A269C787300F29525 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */,
+			);
+			sourceTree = "<group>";
+		};
+		CE95EAD326972A9500A08AB1 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B64F26A9A3C300630001 /* Chapter 8 */,
+				CEA4B64E26A9A3B900630001 /* Chapter 7 */,
+				CEA4B64D26A9A3B300630001 /* Chapter 6 */,
+				CEA4B64C26A9A3A000630001 /* Chapter 5 */,
+				CEA4B64B26A9A39800630001 /* Chapter 4 */,
+				CEA4B64826A9A36B00630001 /* Chapter 3 */,
+				CE95EADD26972BC400A08AB1 /* Chapter 2 */,
+			);
+			path = "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.";
+			sourceTree = "<group>";
+		};
+		CE95EADD26972BC400A08AB1 /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EADE26972BCE00A08AB1 /* Exercises */,
+				CEB234B1269DAC3B0092660E /* Projects */,
+			);
+			path = "Chapter 2";
+			sourceTree = "<group>";
+		};
+		CE95EADE26972BCE00A08AB1 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EAE326972C0800A08AB1 /* 2.1 */,
+				CE63834B269C790500F29525 /* 2.2a */,
+				CE63834F269C7A5900F29525 /* 2.2b */,
+				CE638354269C7ACA00F29525 /* 2.3 */,
+				CE638357269C882000F29525 /* 2.4 */,
+				CEFC4ED4269DA4E50045C921 /* 2.5 */,
+				CEFC4ED9269DA5B00045C921 /* 2.6 */,
+				CE31F580269DA81400801528 /* 2.7 */,
+				CEB234A7269DA96C0092660E /* 2.8 */,
+				CEB234AA269DAB130092660E /* 2.9 */,
+				CEB234AD269DABC30092660E /* 2.10 */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B64826A9A36B00630001 /* Chapter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B64926A9A37000630001 /* Exercises */,
+				CEA4B64A26A9A37A00630001 /* Projects */,
+			);
+			path = "Chapter 3";
+			sourceTree = "<group>";
+		};
+		CEA4B64926A9A37000630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				CEA062D826B0202E00CF0AFF /* 3.1 */,
+				CEA062DD26B021E900CF0AFF /* 3.2 */,
+				CEA062E026B023EB00CF0AFF /* 3.3 */,
+				CEA062E426B0263600CF0AFF /* 3.4 */,
+				CEA062E826B027A400CF0AFF /* 3.5 */,
+				CEA062EC26B029E800CF0AFF /* 3.6 */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B64A26A9A37A00630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				CEA062F026B02A9800CF0AFF /* 3.1.c */,
+				CEA062F426B02C3900CF0AFF /* 3.2.c */,
+				CEA062FE26B0693600CF0AFF /* 3.3.c */,
+				CEA0630226B06ACE00CF0AFF /* 3.4.c */,
+				CEA0630626B0703600CF0AFF /* 3.5.c */,
+				CEA0630A26B0748A00CF0AFF /* 3.6.c */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEA4B64B26A9A39800630001 /* Chapter 4 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B65026A9A3D500630001 /* Exercises */,
+				CEA4B65526A9A3F100630001 /* Projects */,
+			);
+			path = "Chapter 4";
+			sourceTree = "<group>";
+		};
+		CEA4B64C26A9A3A000630001 /* Chapter 5 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B65126A9A3DB00630001 /* Exercises */,
+				CEA4B65626A9A3F500630001 /* Projects */,
+			);
+			path = "Chapter 5";
+			sourceTree = "<group>";
+		};
+		CEA4B64D26A9A3B300630001 /* Chapter 6 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B65226A9A3DF00630001 /* Exercises */,
+				CEA4B65726A9A3F800630001 /* Projects */,
+			);
+			path = "Chapter 6";
+			sourceTree = "<group>";
+		};
+		CEA4B64E26A9A3B900630001 /* Chapter 7 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B65326A9A3E200630001 /* Exercises */,
+				CEA4B65826A9A3FB00630001 /* Projects */,
+			);
+			path = "Chapter 7";
+			sourceTree = "<group>";
+		};
+		CEA4B64F26A9A3C300630001 /* Chapter 8 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B65426A9A3E500630001 /* Exercises */,
+				CEA4B65926A9A3FD00630001 /* Projects */,
+			);
+			path = "Chapter 8";
+			sourceTree = "<group>";
+		};
+		CEA4B65026A9A3D500630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B65126A9A3DB00630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B65226A9A3DF00630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B65326A9A3E200630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B65426A9A3E500630001 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		CEA4B65526A9A3F100630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEA4B65626A9A3F500630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEA4B65726A9A3F800630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEA4B65826A9A3FB00630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEA4B65926A9A3FD00630001 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		CEB234B1269DAC3B0092660E /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				CEB234B2269DAC530092660E /* 2.1.c */,
+				CEB234B6269DAD670092660E /* 2.2.c */,
+				CEB234BA269DB29D0092660E /* 2.3.c */,
+				CEA4B63326A9972800630001 /* 2.4.c */,
+				CEA4B63726A9997A00630001 /* 2.5.c */,
+				CEA4B63B26A99B9000630001 /* 2.6.c */,
+				CEA4B63E26A99C9100630001 /* 2.7.c */,
+				CEA4B64226A99F5B00630001 /* 2.8.c */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE95EAD026972A9500A08AB1 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE95EAD826972A9500A08AB1 /* Build configuration list for PBXNativeTarget "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed." */;
+			buildPhases = (
+				CE95EACD26972A9500A08AB1 /* Sources */,
+				CE95EACE26972A9500A08AB1 /* Frameworks */,
+				CE95EACF26972A9500A08AB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.";
+			productName = "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.";
+			productReference = CE63834A269C787300F29525 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE95EAC926972A9500A08AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CE95EAD026972A9500A08AB1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CE95EACC26972A9500A08AB1 /* Build configuration list for PBXProject "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed." */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE95EAC826972A9500A08AB1;
+			productRefGroup = CE95EAC826972A9500A08AB1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE95EAD026972A9500A08AB1 /* My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed. */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE95EACD26972A9500A08AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA062E126B023EB00CF0AFF /* 3.3 in Sources */,
+				CEA062DE26B021E900CF0AFF /* 3.2 in Sources */,
+				CEB234AE269DABC30092660E /* 2.10 in Sources */,
+				CEB234AB269DAB130092660E /* 2.9 in Sources */,
+				CEA062E926B027A400CF0AFF /* 3.5 in Sources */,
+				CEB234A8269DA96C0092660E /* 2.8 in Sources */,
+				CEA062ED26B029E800CF0AFF /* 3.6 in Sources */,
+				CEA062D926B0202E00CF0AFF /* 3.1 in Sources */,
+				CEA062E526B0263600CF0AFF /* 3.4 in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE95EAD626972A9500A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE95EAD726972A9500A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE95EAD926972A9500A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE95EADA26972A9500A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE95EACC26972A9500A08AB1 /* Build configuration list for PBXProject "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EAD626972A9500A08AB1 /* Debug */,
+				CE95EAD726972A9500A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE95EAD826972A9500A08AB1 /* Build configuration list for PBXNativeTarget "My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EAD926972A9500A08AB1 /* Debug */,
+				CE95EADA26972A9500A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE95EAC926972A9500A08AB1 /* Project object */;
+}

@@ -1,0 +1,10 @@
+//
+//  2.10
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/07/13.
+//
+
+#include <stdio.h>
+
+The space between #include and <stdio.h> and between return and 0 are the only 2 spaces that are required to not change the meaning of the program.
