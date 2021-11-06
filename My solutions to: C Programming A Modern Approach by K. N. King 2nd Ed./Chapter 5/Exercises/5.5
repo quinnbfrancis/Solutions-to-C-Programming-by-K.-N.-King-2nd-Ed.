@@ -1,0 +1,13 @@
+//
+//  5.5
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/04.
+//
+
+    n=0;
+    if (n>=1<=10)
+        printf("n is between 1 and 10/n");
+
+It is legal, but flawed because of the left associativity that equality operators have. It will test whether n(0) >= 1 or not (in this case it's false(0)) and then test whether 0<=10 which is true, meaning the that the if query would be answered true and the printf statement would execute.
+

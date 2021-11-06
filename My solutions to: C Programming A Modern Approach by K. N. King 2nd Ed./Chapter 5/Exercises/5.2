@@ -1,0 +1,31 @@
+//
+//  5.2
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/02.
+//
+
+#include <stdio.h>
+int main(void) {
+    
+    int i=1, j=2,k=3;
+    printf("%d", i < j || k);
+}
+/*
+a)
+ int i=10, j=5;
+ printf("%d", !i < j);
+output=1 because !10= 0 and 0<j(5) is true, hence 1 for output.
+b)
+ int i=2, j=1;
+ printf("%d", !!i + !j);
+output=1 because !!i(2)= !!2 -> !0 -> 1 and !j(1)=0 1+0=1
+c)
+ int i=5, j=0,k=-5;
+ printf("%d", i && j || k);
+output=1 because i(5) && j(0) yields 0 because one is zero, and 0 || k(-5) contains one non-zero value, hence a true output.
+ d)
+    int i=1, j=2,k=3;
+    printf("%d", i < j || k);
+ output=1 because i(1) < j(2) is true (1) meaning 1 || k(3) yields a true(1) output without even needing to test for k.
+*/

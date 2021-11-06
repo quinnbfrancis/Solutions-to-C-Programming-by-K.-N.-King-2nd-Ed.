@@ -1,0 +1,45 @@
+//
+//  5.3
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/03.
+//
+
+#include <stdio.h>
+int main(void)
+{
+    int i=1,j=1,k=1;
+    printf("%d\n", ++i || ++j && ++k);
+    printf("i=%d j=%d k=%d",i, j, k);
+    
+}
+
+/*
+a)
+ int i=3,j=4,k=5;
+ printf("%d\n", i<j || ++j<k);
+ printf("i=%d j=%d k=%d",i, j, k);
+output= 1
+        3,4,5 because i<j is true and the right side of the || is not tested, avoiding the incrementing of j.
+b)
+ int i=7,j=8,k=9;
+ printf("%d\n", i-7 && j++<k);
+ printf("i=%d j=%d k=%d",i, j, k);
+output= 0
+        7,8,9 because i(7)-7=0 breaking the && without testing the right side, avoiding the incrememnting of j.
+c)
+ int i=7,j=8,k=9;
+ printf("%d\n", (i=j) || (j=k));
+ printf("i=%d j=%d k=%d",i, j, k);
+output= 1
+        8,8,9 because (i(7)=j(8))=a non zero value short circuiting || before the right side is evaluated,
+            the || is true without the need for the right side, leaving j=k without being executed.
+d)
+ int i=1,j=1,k=1;
+ printf("%d\n", ++i || ++j && ++k);
+ printf("i=%d j=%d k=%d",i, j, k);
+output= 1
+        2,1,1 because ++i(1)=2 which short circuits the || before evaluating the right side, leaving ++j && ++k not being executed.
+ 
+ 
+ */

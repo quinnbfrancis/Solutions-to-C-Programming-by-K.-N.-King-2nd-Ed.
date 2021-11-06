@@ -1,0 +1,14 @@
+//
+//  5.10
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/04.
+//
+int i=1;
+switch (i%3){
+case 0: printf("zero");
+case 1: printf("one");
+case 2: printf("two");
+}
+
+The output will be onetwo because there is no break inbetween case labels, meaning all cases including and the below the first applicable one will execute.

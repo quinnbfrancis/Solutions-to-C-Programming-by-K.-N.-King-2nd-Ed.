@@ -1,0 +1,17 @@
+//
+//  4.15
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/03.
+//
+
+Assume i=1 and j=2
+
+a)i+=j;
+    i=3 j=2
+b)i--;
+    i=0 j=2
+c)i*j/1;
+    i=1 j=2
+d)i%++j;
+    i=1 j=3

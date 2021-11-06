@@ -1,0 +1,38 @@
+//
+//  5.1
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/02.
+//
+
+#include <stdio.h>
+int main(void)
+
+{
+    int i=3, j=4, k=5;
+    printf("%d",i % j + i < k);
+    
+}
+
+/*
+ a)
+ int i=2, j=3, k;
+ k=i*j==6;
+ printf("%d",k);
+    output=1 because k==6
+ 
+ b)
+ int i=5, j=10, k=1;
+ printf("%d",k > i < j);
+    output=1 because k is smaller than i so the expression returns a false value and 0 is less than j(10). hence it returns a positive value.
+ 
+ c)
+ int i=3, j=2, k=1;
+ printf("%d",i < j == j < k);
+    output=1 because i<j returns false and j<k returns false, false == false, hence output is positive.
+ 
+ d)
+ int i=3, j=4, k=5;
+ printf("%d",i % j + i < k);
+    output=0 because i%j = 3 and 3+i(3)=6 and 6 !< k(5), hence output returns a false value.
+*/

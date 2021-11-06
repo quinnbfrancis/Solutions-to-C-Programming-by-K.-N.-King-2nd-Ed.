@@ -1,0 +1,23 @@
+//
+//  4.7
+//  My solutions to: C Programming A Modern Approach by K. N. King 2nd Ed.
+//
+//  Created by Quinn Francis on 2021/08/03.
+//
+
+#include <stdio.h>
+
+int main(void)
+{
+    int x;
+    x=1000;
+    printf("%d",10-(x%10));
+}
+
+/*
+ 
+ 9-((x-1)%10) != 10-(x%10)
+ 
+ because if x is perfectly divisible by 10 then you'd get a check digit of 10 which is not allowed.
+ 
+*/
